@@ -21,6 +21,7 @@ tab.get("https://dashboard.oxfordvest.com/login");
 tabToOpen
 .then(function () {
     
+    
     //Timeout to wait if connection is slow
     let findTimeOutP =
         tab.manage().setTimeouts({
